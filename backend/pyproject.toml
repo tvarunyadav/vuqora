@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vuqora-api"
+version = "0.1.0"
+description = "Backend API service for VUQORA mobile-first restaurant menu companion"
+readme = "README.md"
+requires-python = ">=3.12"
+
+# Runtime dependencies source of truth: requirements.txt
+
+[tool.pytest.ini_options]
+minversion = "8.0"
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+asyncio_mode = "auto"
+
+[tool.ruff]
+line-length = 88
+target-version = "py312"
