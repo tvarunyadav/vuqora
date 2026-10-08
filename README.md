@@ -2,9 +2,27 @@
 
 > **From menu to meal.**
 
-**Status:** Early Development (Milestone 0: Project Foundation)
+**Status:** Milestone 1 (Menu Capture & Local Preview)
 
 VUQORA is a mobile-first restaurant menu companion designed to transform physical restaurant menus into personalized dining recommendations based on user preferences, party size, appetite, categories, and budget constraints.
+
+---
+
+## 🗺️ Milestone Roadmap
+
+- **Milestone 1 (Current):** Menu Capture & Local Preview
+  - Mobile-first PWA layout & responsive components
+  - Menu file upload, camera capture, client validation, local preview & page ordering
+- **Milestone 2:** Menu Image Processing & Extraction
+  - Menu image processing / extraction
+  - Gemini multimodal vision provider
+  - Structured menu extraction
+  - Schema validation
+  - Editable extracted-menu review UX
+- **Later Milestones:**
+  - Persistence
+  - Deterministic recommendation engine
+  - AI-assisted semantic ranking & explanations
 
 ---
 
